@@ -1,10 +1,4 @@
 
-export SBT_HOME=/Users/tasyrkin/Development/sbt-0.13.7
-export SCALA_HOME=/Users/tasyrkin/Development/scala-2.11.6
-export ACTIVATOR_HOME=/Users/tasyrkin/Development/activator-1.3.2
-export PATH=~/openSource/whiskeysierra/dotfiles/repository/bin:~/ws/git/tasyrkin/return20-test/help_scripts:~/ws/git/tasyrkin/scripts/bin:~/bin:$SBT_HOME/bin:$SCALA_HOME/bin:$ACTIVATOR_HOME:~/programs/maven/bin:~/incident/scripts:~/ws/git/Platform/Database/db-utils:~/ws/reboot-tools/scripts/misc/tools:~/programs/sbt/bin:~/ws/git/Platform/Software/branch-creator:$PATH
-echo $PATH
-
 source ~/goto-config.sh
 
 alias python-check-tabs='python -m tabnanny'
